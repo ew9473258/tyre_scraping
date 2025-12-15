@@ -1,13 +1,11 @@
 .env
 playwright_test.py
 playwright_test2.py 
-playwright_dexel.py
-playwright_bythjul.py
-NationalTyreExtractor.py
 test_curl.py
 test_playwright.py
 geckodriver.exe
 example.png
-captcha.png
-dexelscraper.py
 postcodes.json
+tyres_dexel.db
+database_combining.py
+tyres_national.db

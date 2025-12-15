@@ -1,0 +1,323 @@
+id,website_name,tyre_brand,tyre_pattern,tyre_size,seasonality,price
+1,Dexel,Budget,Economy,205/55R16 91H,summer,48.48
+2,Dexel,Budget,Economy,205/55R16 91V,summer,48.48
+3,Dexel,Budget,Economy,205/55R16 91W,summer,50.08
+4,Dexel,Landsail,Ls388,205/55R16 91V,summer,67.57
+5,Dexel,Budget,Economy,205/55R16 94Y,summer,67.82
+6,Dexel,Landsail,Ls388,205/55ZR16 91W,summer,68.47
+7,Dexel,Budget,Economy winter,205/55R16 91H,winter,77.48
+8,Dexel,Yokohama,Bluearth-es es32,205/55R16 91V,summer,78.54
+9,Dexel,Yokohama,Bluearth-gt ae51,205/55R16 91V,summer,78.54
+10,Dexel,Vredestein,Ultrac+,205/55R16 91H,summer,80.20
+11,Dexel,Davanti,Dx-390,205/55R16 91V,summer,81.03
+12,Dexel,Davanti,Ecoura hp1,205/55R16 91V,summer,81.03
+13,Dexel,Vredestein,Ultrac+,205/55R16 91V,summer,81.18
+14,Dexel,Yokohama,Bluearth-es es32,205/55R16 91H,summer,83.13
+15,Dexel,Landsail,Ls388,205/55ZR16 94W,summer,84.00
+16,Dexel,Davanti,Dx-390,205/55R16 94V,summer,84.78
+17,Dexel,Davanti,Ecoura hp1,205/55R16 94V,summer,84.78
+18,Dexel,Yokohama,Bluearth-a ae50,205/55R16 91V,summer,85.41
+19,Dexel,Vredestein,Ultrac+,205/55R16 94W,summer,87.06
+20,Dexel,Davanti,Alltoura,205/55R16 91V,all season,87.38
+21,Dexel,Yokohama,Bluearth-gt ae51,205/55R16 91W,summer,87.78
+22,Dexel,Yokohama,Advan db decibel v552,205/55R16 91W,summer,87.78
+23,Dexel,Uniroyal,Rainsport 5,205/55R16 91H,summer,88.57
+24,Dexel,Uniroyal,Rainsport 5,205/55R16 91V,summer,89.41
+25,Dexel,Dunlop,Sp sport bluresponse,205/55R16 91H,summer,89.83
+26,Dexel,Yokohama,C.drive2 ac02a,205/55R16 91H,summer,89.96
+27,Dexel,Yokohama,Advan sport v103s,205/55R16 91V,summer,90.62
+28,Dexel,Yokohama,Advan sport v105,205/55R16 91V,summer,90.62
+29,Dexel,Yokohama,C.drive2 ac02a,205/55R16 91V,summer,90.62
+30,Dexel,Yokohama,Db decibel e70jc,205/55R16 91V,summer,90.62
+31,Dexel,Yokohama,Db decibel e70j,205/55R16 91V,summer,90.62
+32,Dexel,Dunlop,Sp sport bluresponse,205/55R16 91V,summer,91.41
+33,Dexel,Dunlop,Sp sport bluresponse,205/55R16 91V,summer,91.41
+34,Dexel,Vredestein,Quatrac,205/55R16 91H,all season,91.96
+35,Dexel,Yokohama,Advan fleva v701,205/55R16 91W,summer,92.29
+36,Dexel,Yokohama,Advan sport v105,205/55R16 91W,summer,92.29
+37,Dexel,Uniroyal,Rainsport 5,205/55R16 91W,summer,93.24
+38,Dexel,Vredestein,Quatrac,205/55R16 91V,all season,93.26
+39,Dexel,Yokohama,Bluearth-4s aw21,205/55R16 91V,all season,93.60
+40,Dexel,Bridgestone,Turanza 6,205/55R16 91V,summer,94.15
+41,Dexel,Dunlop,Sp sport bluresponse,205/55R16 94V,summer,94.58
+42,Dexel,Uniroyal,Rainsport 5,205/55R16 94V,summer,94.74
+43,Dexel,Yokohama,Bluearth-gt ae51,205/55R16 94V,summer,95.35
+44,Dexel,Vredestein,Quatrac,205/55R16 94V,all season,95.88
+45,Dexel,Dunlop,Sp sport bluresponse,205/55R16 91W,summer,96.18
+46,Dexel,Dunlop,Sport maxx rt,205/55R16 91Y,summer,96.18
+47,Dexel,Davanti,Dx-390,205/55R16 94W,summer,96.34
+48,Dexel,Davanti,Ecoura hp1,205/55R16 94W,summer,96.34
+49,Dexel,Uniroyal,Allseason expert 2,205/55R16 91H,all season,96.57
+50,Dexel,Uniroyal,Allseason expert 3,205/55R16 91H,all season,96.57
+51,Dexel,Bridgestone,Turanza 6,205/55R16 91H,summer,96.91
+52,Dexel,Bridgestone,Ecopia ep150,205/55R16 91V,summer,97.63
+53,Dexel,Goodyear,Efficientgrip performance,205/55R16 91H,summer,98.37
+54,Dexel,Goodyear,Efficientgrip performance,205/55R16 91H,summer,98.37
+55,Dexel,Uniroyal,Rainsport 3,205/55R16 94Y,summer,98.64
+56,Dexel,Dunlop,Sport all season,205/55R16 91V,all season,98.72
+57,Dexel,Dunlop,All season 2,205/55R16 91V,all season,98.72
+58,Dexel,Hankook,Kinergy eco2 k435,205/55R16 91H,summer,98.78
+59,Dexel,Hankook,Kinergy eco2 k435,205/55R16 91H,summer,98.78
+60,Dexel,Hankook,Ventus prime 4 k135,205/55R16 91H,summer,98.78
+61,Dexel,Uniroyal,Allseason expert 2,205/55R16 94V,all season,98.83
+62,Dexel,Uniroyal,Allseason expert 3,205/55R16 94V,all season,98.83
+63,Dexel,Goodyear,Efficientgrip performance,205/55R16 91V,summer,98.91
+64,Dexel,Goodyear,Efficientgrip performance 2,205/55R16 91V,summer,98.91
+65,Dexel,Goodyear,Efficientgrip performance,205/55R16 91V,summer,98.91
+66,Dexel,Hankook,Ventus prime 4 k135,205/55R16 91V,summer,99.21
+67,Dexel,Bridgestone,Turanza t001,205/55RF16 91V,summer,99.43
+68,Dexel,Davanti,Wintoura,205/55R16 94H,winter,99.44
+69,Dexel,Bridgestone,Turanza er300,205/55R16 91V,summer,99.58
+70,Dexel,Davanti,Wintoura,205/55R16 91H,winter,99.99
+71,Dexel,Hankook,Ventus prime 4 k135,205/55R16 91W,summer,100.23
+72,Dexel,Dunlop,All season 2,205/55R16 94V,all season,100.30
+73,Dexel,Bridgestone,Turanza 6,205/55R16 91W,summer,100.58
+74,Dexel,Vredestein,Wintrac,205/55R16 91H,winter,100.87
+75,Dexel,Goodyear,Efficientgrip performance,205/55R16 91W,summer,101.02
+76,Dexel,Goodyear,Efficientgrip performance 2,205/55R16 91Y,summer,101.02
+77,Dexel,Davanti,Wintoura,205/55R16 91T,winter,101.13
+78,Dexel,Vredestein,Wintrac,205/55R16 91T,winter,101.20
+79,Dexel,Yokohama,Bluearth winter v906 suv,205/55R16 91H,winter,101.50
+80,Dexel,Bridgestone,Turanza t005,205/55R16 91W,summer,101.67
+81,Dexel,Yokohama,Advan sport v103s,205/55RF16 91W,summer,102.08
+82,Dexel,Goodyear,Efficientgrip performance,205/55R16 91V,summer,102.61
+83,Dexel,Pirelli,Cinturato p7,205/55R16 91V,summer,102.82
+84,Dexel,Bridgestone,Turanza t005,205/55R16 91V,summer,102.97
+85,Dexel,Hankook,Ventus prime 3 k125,205/55R16 94H,summer,103.17
+86,Dexel,Bridgestone,Turanza er300,205/55R16 91H,summer,103.57
+87,Dexel,Continental,Conti ecocontact 6,205/55R16 91H,summer,104.24
+88,Dexel,Continental,Contiecocontact 5,205/55R16 91H,summer,104.24
+89,Dexel,Continental,Contiecocontact 5,205/55R16 91H,summer,104.24
+90,Dexel,Continental,Ultracontact,205/55R16 91H,summer,104.24
+91,Dexel,Continental,Contipremiumcontact 7,205/55R16 91H,summer,104.24
+92,Dexel,Continental,Contiecocontact 5,205/55R16 91H,summer,104.24
+93,Dexel,Continental,Contiecocontact 5,205/55R16 91V,summer,104.72
+94,Dexel,Continental,Contipremiumcontact 2,205/55R16 91V,summer,104.72
+95,Dexel,Continental,Ultracontact,205/55R16 91V,summer,104.72
+96,Dexel,Continental,Contipremiumcontact 7,205/55R16 91V,summer,104.72
+97,Dexel,Continental,Conti ecocontact 6,205/55R16 91V,summer,104.72
+98,Dexel,Hankook,Ventus prime 4 k135,205/55R16 94V,summer,104.84
+99,Dexel,Hankook,Ih61 ion st as,205/55R16 94V,summer,104.84
+100,Dexel,Goodyear,Vector 4seasons gen3,205/55R16 91V,all season,105.15
+101,Dexel,Goodyear,Vector 4seasons gen2,205/55R16 94H,all season,105.15
+102,Dexel,Goodyear,Efficientgrip performance,205/55R16 91W,summer,105.79
+103,Dexel,Goodyear,Efficientgrip performance 2,205/55R16 94V,summer,105.79
+104,Dexel,Continental,Contiecocontact 5,205/55R16 91W,summer,105.81
+105,Dexel,Continental,Contipremiumcontact 5,205/55R16 91W,summer,105.81
+106,Dexel,Continental,Ultracontact,205/55R16 91W,summer,105.81
+107,Dexel,Continental,Conti ecocontact 6,205/55R16 91W,summer,105.81
+108,Dexel,Continental,Conti ecocontact 6,205/55R16 91W,summer,105.81
+109,Dexel,Goodyear,Vector 4seasons gen2,205/55R16 94V,all season,106.75
+110,Dexel,Goodyear,Vector 4seasons gen3,205/55R16 94V,all season,106.75
+111,Dexel,Goodyear,Vector 4seasons gen3,205/55R16 94V,all season,106.75
+112,Dexel,Hankook,Kinergy 4s 2 h750,205/55R16 94H,all season,107.06
+113,Dexel,Yokohama,Bluearth winter v906 suv,205/55R16 94H,winter,107.58
+114,Dexel,Yokohama,Bluearth-4s aw21,205/55R16 94V,all season,107.92
+115,Dexel,Continental,Allseasoncontact 2,205/55R16 91H,all season,108.24
+116,Dexel,Vredestein,Wintrac,205/55R16 94H,winter,108.52
+117,Dexel,Continental,Allseasoncontact 2,205/55R16 91V,all season,108.86
+118,Dexel,Continental,Allseasoncontact 2,205/55R16 94H,all season,109.12
+119,Dexel,Hankook,Kinergy 4s 2 h750,205/55R16 94V,all season,109.29
+120,Dexel,Uniroyal,Rainsport 3,205/55RF16 91W,summer,110.10
+121,Dexel,Continental,Allseasoncontact 2,205/55R16 94V,all season,110.96
+122,Dexel,Goodyear,Vector 4seasons,205/55R16 94V,all season,110.98
+123,Dexel,Landsail,Ls388@rsc,205/55ZRF16 91W,summer,111.94
+124,Dexel,Dunlop,Sp winter sport5,205/55R16 91T,winter,112.23
+125,Dexel,Goodyear,Efficientgrip performance 2,205/55R16 94W,summer,112.68
+126,Dexel,Dunlop,Sp winter sport5,205/55R16 91H,winter,112.77
+127,Dexel,Continental,Contiecocontact 5,205/55R16 94H,summer,113.01
+128,Dexel,Hankook,Ventus prime 4 k135,205/55R16 94W,summer,113.02
+129,Dexel,Bridgestone,Turanza 6,205/55R16 94V,summer,113.05
+130,Dexel,Hankook,Winter i*cept rs3 w462,205/55R16 91H,winter,113.29
+131,Dexel,Goodyear,Ultragrip performance 3,205/55R16 91T,winter,113.38
+132,Dexel,Dunlop,Sp sport maxx tt,205/55R16 91W,summer,113.65
+133,Dexel,Dunlop,Sp winter sport 4d,205/55R16 91H,winter,113.83
+134,Dexel,Goodyear,Ultragrip performance 3,205/55R16 91H,winter,113.91
+135,Dexel,Continental,Ultracontact,205/55R16 94V,summer,114.14
+136,Dexel,Continental,Conti ecocontact 6,205/55R16 94V,summer,114.14
+137,Dexel,Michelin,Primacy 5,205/55R16 91V,summer,114.14
+138,Dexel,Michelin,Primacy 5,205/55R16 91W,summer,114.63
+139,Dexel,Hankook,Winter i*cept rs3 w462,205/55R16 94H,winter,115.50
+140,Dexel,Michelin,Primacy 5,205/55R16 91H,summer,115.53
+141,Dexel,Michelin,Primacy 4,205/55R16 91W,summer,115.54
+142,Dexel,Vredestein,Wintrac,205/55R16 94V,winter,117.19
+143,Dexel,Michelin,Pilot sport 4,205/55ZR16 (94Y),summer,118.04
+144,Dexel,Goodyear,Ultragrip performance gen-1,205/55R16 91H,winter,118.68
+145,Dexel,Davanti,Dx-390,205/55R16 91V,summer,118.80
+146,Dexel,Continental,Allseasoncontact 2,205/55RF16 94V,all season,119.16
+147,Dexel,Bridgestone,Turanza er300a,205/55RF16 91W,summer,119.23
+148,Dexel,Michelin,Crossclimate 3,205/55R16 91H,all season,119.35
+149,Dexel,Michelin,Crossclimate 2,205/55R16 94V,all season,119.54
+150,Dexel,Michelin,Crossclimate 3,205/55R16 91V,all season,119.90
+151,Dexel,Michelin,Crossclimate 3,205/55R16 91W,all season,120.33
+152,Dexel,Hankook,Winter i*cept rs3 w462,205/55R16 94V,winter,121.40
+153,Dexel,Continental,Ultracontact nxt,205/55R16 94W,summer,121.83
+154,Dexel,Michelin,Crossclimate+,205/55R16 94V,all season,121.95
+155,Dexel,Bridgestone,Turanza t005,205/55RF16 91W,summer,122.17
+156,Dexel,Continental,Wintercontact ts 870,205/55R16 91T,winter,122.54
+157,Dexel,Yokohama,W.drive v902a,205/55RF16 91H,winter,122.67
+158,Dexel,Michelin,Crossclimate 3,205/55R16 94V,all season,122.67
+159,Dexel,Continental,Wintercontact ts 870,205/55R16 91H,winter,122.78
+160,Dexel,Goodyear,Ultragrip performance 3,205/55R16 94H,winter,122.91
+161,Dexel,Yokohama,Advan neova ad08rs,205/55R16 91V,summer,122.95
+162,Dexel,Dunlop,Sp winter sport 3d,205/55RF16 91H,winter,123.37
+163,Dexel,Pirelli,Cinturato all season sf3,205/55R16 94V,all season,124.45
+164,Dexel,Continental,Contipremiumcontact,205/55RF16 91V,summer,124.82
+165,Dexel,Continental,Contipremiumcontact,205/55RF16 91V,summer,124.82
+166,Dexel,Bridgestone,Turanza t005,205/55R16 94V,summer,124.99
+167,Dexel,Hankook,Kinergy 4s 2 h750b,205/55ZRF16 94W,all season,125.61
+168,Dexel,Dunlop,Sp winter sport5,205/55R16 94H,winter,126.01
+169,Dexel,Continental,Conti ecocontact 6,205/55RF16 91W,summer,126.25
+170,Dexel,Continental,Conti ecocontact 6,205/55RF16 91W,summer,126.25
+171,Dexel,Goodyear,Vector 4seasons gen2,205/55RF16 91V,all season,126.33
+172,Dexel,Michelin,Primacy 5,205/55R16 94H,summer,127.44
+173,Dexel,Michelin,Primacy 5,205/55R16 94V,summer,127.48
+174,Dexel,Dunlop,Sp winter sport5,205/55R16 94V,winter,130.24
+175,Dexel,Pirelli,Cinturato (c3),205/55R16 94V,summer,131.50
+176,Dexel,Michelin,Alpin 7,205/55R16 91H,winter,131.50
+177,Dexel,Bridgestone,Blizzak 6,205/55R16 91H,winter,132.27
+178,Dexel,Continental,Wintercontact ts 870,205/55R16 94H,winter,132.92
+179,Dexel,Michelin,Alpin 7,205/55R16 91T,winter,133.33
+180,Dexel,Michelin,Alpin 5,205/55R16 91H,winter,134.67
+181,Dexel,Bridgestone,Blizzak lm-001,205/55R16 91H,winter,136.10
+182,Dexel,Goodyear,Ultragrip performance 3,205/55R16 94V,winter,138.27
+183,Dexel,Continental,Contiwintercontact ts 860 s,205/55RF16 91H,winter,139.10
+184,Dexel,Bridgestone,Blizzak 6,205/55R16 94H,winter,144.38
+185,Dexel,Michelin,Alpin 7,205/55R16 94H,winter,147.34
+186,Dexel,Bridgestone,Blizzak lm-001,205/55RF16 91H,winter,150.13
+187,Dexel,Continental,Wintercontact ts 870,205/55R16 94V,winter,152.50
+188,Dexel,Bridgestone,Blizzak 6,205/55R16 94V,winter,163.64
+189,Dexel,Pirelli,P zero rosso asimmetrico,205/55ZR16 (91Y),summer,163.87
+190,Dexel,Yokohama,A008p,205/55ZR16 91W,summer,167.22
+191,Dexel,Budget,Economy,225/50R16 92W,summer,62.55
+192,Dexel,Budget,Economy,225/50R16 92V,summer,72.62
+193,Dexel,Uniroyal,Rainsport 5,225/50R16 92Y,summer,125.38
+194,Dexel,Uniroyal,Rainsport 5,225/50R16 92Y,summer,125.38
+195,Dexel,Yokohama,Advan sport v105,225/50R16 92V,summer,133.99
+196,Dexel,Yokohama,Advan sport v105,225/50R16 92W,summer,135.67
+197,Dexel,Yokohama,Bluearth-a ae50,225/50R16 92W,summer,135.67
+198,Dexel,Yokohama,Advan sport v103s,225/50RF16 92W,summer,141.42
+199,Dexel,Yokohama,A008p,225/50ZR16 92W,summer,143.18
+200,Dexel,Goodyear,Efficientgrip performance 2,225/50R16 92Y,summer,151.34
+201,Dexel,Continental,Ultracontact,225/50R16 92W,summer,160.17
+202,Dexel,Continental,Contipremiumcontact 6,225/50R16 92Y,summer,160.17
+203,Dexel,Yokohama,Advan neova ad08rs,225/50R16 92V,summer,163.75
+204,Dexel,Michelin,Primacy 4 +,225/50R16 92W,summer,164.70
+205,Dexel,Michelin,Pilot sport 4,225/50ZR16 (92Y),summer,168.86
+206,Dexel,Michelin,Crossclimate 2,225/50R16 92Y,all season,189.91
+207,Dexel,Bridgestone,Potenza re050 i,225/50RF16 92W,summer,199.27
+208,Dexel,Pirelli,P zero rosso asimmetrico,225/50ZR16 (92Y),summer,206.71
+209,Dexel,Michelin,Alpin 5,225/50R16 96H,winter,209.38
+210,Dexel,Continental,Contiwintercontact ts 830 p,225/50R16 92H,winter,219.12
+211,National,goodyear,EfficientGrip Performance 2,205/55 R16 91V,summer,95.99
+212,National,bridgestone,Turanza 6,205/55 R16 91V,summer,99.99
+213,National,avon,ZV7,205/55 R16 91V,summer,81.99
+214,National,rovelo,RHP-780P,205/55 R16 91V,summer,51.99
+215,National,rovelo,RPX-988,205/55 R16 91W,summer,55.99
+216,National,rovelo,Avenue Sprint,205/55 R16 91W,summer,57.99
+217,National,rovelo,All Weather R4S,205/55 R16 94V,all season,77.99
+218,National,admiral,RCB008,205/55 R16 91V,summer,61.99
+219,National,nankang,Nankang Eco-2+,205/55 R16 91V,summer,69.99
+220,National,sailun,Atrezzo Elite 2,205/55 R16 91V,summer,82.99
+221,National,avon,ZV7,205/55 R16 94V,summer,86.99
+222,National,avon,ZV7,205/55 R16 94W,summer,87.99
+223,National,avon,ZV7,205/55 R16 91W,summer,91.99
+224,National,hankook,Ventus Prime 4 K135,205/55 R16 91H,summer,92.99
+225,National,hankook,Kinergy 4S2 H750,205/55 R16 94V,all season,101.99
+226,National,sailun,ATREZZO ZSR 2,205/55 R16 91Y,summer,110.99
+227,National,hankook,Ventus Prime 3 K125,205/55 R16 91W,summer,120.99
+228,National,hankook,Ventus Prime 3 K125,205/55 R16 94H,summer,121.99
+229,National,sailun,Atrezzo 4 Seasons,205/55 R16 94V,all season,123.99
+230,National,dunlop,SP Sport BluResponse,205/55 R16 91V,summer,94.99
+231,National,dunlop,SP Sport BluResponse,205/55 R16 91V,summer,95.99
+232,National,dunlop,SP Sport BluResponse,205/55 R16 91V,summer,95.99
+233,National,pirelli,Cinturato P7 P7C2,205/55 R16 91V,summer,95.99
+234,National,pirelli,Cinturato P7,205/55 R16 91V,summer,96.99
+235,National,bridgestone,Turanza 6,205/55 R16 91H,summer,97.99
+236,National,continental,PremiumContact 7,205/55 R16 91V,summer,99.99
+237,National,bridgestone,Turanza 6,205/55 R16 91W,summer,99.99
+238,National,continental,UltraContact,205/55 R16 91W,summer,99.99
+239,National,pirelli,Cinturato C3,205/55 R16 94V,summer,99.99
+240,National,bridgestone,Turanza 6,205/55 R16 91V,summer,100.99
+241,National,bridgestone,Turanza T005,205/55 R16 91V,summer,100.99
+242,National,bridgestone,Turanza T005,205/55 R16 91W,summer,100.99
+243,National,continental,EcoContact 6,205/55 R16 91V,summer,100.99
+244,National,continental,EcoContact 5,205/55 R16 91W,summer,101.99
+245,National,continental,EcoContact 5,205/55 R16 91H,summer,102.99
+246,National,continental,EcoContact 5,205/55 R16 91V,summer,103.99
+247,National,continental,UltraContact,205/55 R16 91H,summer,103.99
+248,National,continental,PremiumContact 2,205/55 R16 91V,summer,104.99
+249,National,bridgestone,Turanza ER300A,205/55 R16 91W,summer,104.99
+250,National,dunlop,Sport Maxx RT,205/55 R16 91Y,summer,104.99
+251,National,goodyear,Vector 4Seasons Gen 3,205/55 R16 91V,all season,104.99
+252,National,goodyear,EfficientGrip Performance 2,205/55 R16 91W,summer,104.99
+253,National,michelin,Primacy 5,205/55 R16 91V,summer,106.99
+254,National,pirelli,Cinturato P7,205/55 R16 91W,summer,106.99
+255,National,goodyear,EfficientGrip Performance 2,205/55 R16 91Y,summer,106.99
+256,National,goodyear,EfficientGrip Performance,205/55 R16 91V,summer,106.99
+257,National,continental,UltraContact,205/55 R16 91V,summer,107.99
+258,National,dunlop,SP Sport BluResponse,205/55 R16 91W,summer,107.99
+259,National,michelin,ePrimacy,205/55 R16 91V,summer,108.99
+260,National,bridgestone,Ecopia EP150,205/55 R16 91V,summer,108.99
+261,National,goodyear,EfficientGrip Performance,205/55 R16 91V,summer,110.99
+262,National,goodyear,EfficientGrip Performance,205/55 R16 91V,summer,110.99
+263,National,goodyear,UltraGrip Performance 3,205/55 R16 91H,winter,111.99
+264,National,continental,PremiumContact 7,205/55 R16 91H,summer,111.99
+265,National,goodyear,EfficientGrip Performance 2,205/55 R16 94V,summer,112.99
+266,National,michelin,Primacy 5,205/55 R16 91H,summer,112.99
+267,National,michelin,CrossClimate 3,205/55 R16 91V,all season,113.99
+268,National,goodyear,EfficientGrip Performance,205/55 R16 91W,summer,113.99
+269,National,continental,UltraContact,205/55 R16 94V,summer,113.99
+270,National,bridgestone,Turanza 6,205/55 R16 94V,summer,114.99
+271,National,goodyear,EfficientGrip Performance 2,205/55 R16 91H,summer,114.99
+272,National,michelin,CrossClimate +,205/55 R16 94V,all season,114.99
+273,National,michelin,CrossClimate 3,205/55 R16 91H,all season,114.99
+274,National,bridgestone,Turanza ER300,205/55 R16 91V,summer,117.99
+275,National,michelin,Primacy 5,205/55 R16 91W,summer,117.99
+276,National,continental,All Season Contact 2,205/55 R16 94V,all season,118.99
+277,National,continental,All Season Contact 2,205/55 R16 91H,all season,119.99
+278,National,michelin,CrossClimate 3,205/55 R16 91W,all season,119.99
+279,National,michelin,Energy Saver,205/55 R16 91H,summer,120.99
+280,National,continental,EcoContact 6,205/55 R16 94V,summer,121.99
+281,National,michelin,CrossClimate +,205/55 R16 94V,all season,122.99
+282,National,michelin,CrossClimate 2,205/55 R16 91H,all season,122.99
+283,National,michelin,ePrimacy S1,205/55 R16 94V,summer,123.99
+284,National,dunlop,Sport Maxx TT,205/55 R16 91W,summer,123.99
+285,National,goodyear,Vector 4Seasons Gen 3,205/55 R16 94V,all season,124.99
+286,National,continental,EcoContact 5 SEAL,205/55 R16 94H,summer,124.99
+287,National,pirelli,Cinturato P7,205/55 R16 91W,summer,124.99
+288,National,michelin,ePrimacy,205/55 R16 94H,summer,125.99
+289,National,goodyear,Vector 4Seasons,205/55 R16 94V,all season,125.99
+290,National,goodyear,Vector 4Seasons Gen-2,205/55 R16 94V,all season,125.99
+291,National,goodyear,Vector 4Seasons Gen 3,205/55 R16 94V,all season,125.99
+292,National,goodyear,EfficientGrip Performance 2,205/55 R16 94W,summer,126.99
+293,National,bridgestone,Turanza T005,205/55 R16 91W,summer,126.99
+294,National,continental,EcoContact 6,205/55 R16 94H,summer,127.99
+295,National,bridgestone,Turanza ER300A,205/55 R16 91W,summer,128.99
+296,National,michelin,Pilot Sport 4,205/55 R16 94Y,summer,130.99
+297,National,goodyear,Vector 4Seasons Gen-2,205/55 R16 94H,all season,130.99
+298,National,continental,All Season Contact 2,205/55 R16 94H,all season,131.99
+299,National,michelin,Primacy 3,205/55 R16 91W,summer,132.99
+300,National,dunlop,Sport Maxx RT,205/55 R16 91W,summer,132.99
+301,National,michelin,CrossClimate 2,205/55 R16 91V,all season,134.99
+302,National,goodyear,Vector 4Seasons Gen-2,205/55 R16 91V,all season,134.99
+303,National,continental,All Season Contact 2,205/55 R16 91V,all season,134.99
+304,National,continental,EcoContact 6,205/55 R16 91W,summer,135.99
+305,National,bridgestone,Turanza ER300,205/55 R16 91W,summer,135.99
+306,National,michelin,CrossClimate 2,205/55 R16 94V,all season,135.99
+307,National,michelin,Primacy 4,205/55 R16 94V,summer,136.99
+308,National,bridgestone,Turanza 6,205/55 R16 94V,summer,137.99
+309,National,michelin,Primacy 5,205/55 R16 94H,summer,138.99
+310,National,bridgestone,Turanza T005,205/55 R16 91H,summer,140.99
+311,National,michelin,Pilot Exalto PE2,205/55 R16 91Y,summer,143.99
+312,National,continental,All Season Contact 2,205/55 R16 94V,all season,144.99
+313,National,goodyear,UltraGrip Performance 3,205/55 R16 94V,winter,160.99
+314,National,continental,PremiumContact,205/55 R16 91V,summer,164.99
+315,National,bridgestone,Turanza T005 DriveGuard,205/55 R16 94W,summer,185.99
+316,National,goodyear,EfficientGrip Performance 2,225/50 R16 92Y,summer,160.99
+317,National,continental,PremiumContact 6,225/50 R16 92Y,summer,158.99
+318,National,continental,UltraContact,225/50 R16 92W,summer,178.99
+319,National,michelin,Pilot Sport 4,225/50 R16 92Y,summer,183.99
+320,National,pirelli,P Zero Rosso,225/50 R16 92Y,summer,208.99
+321,National,michelin,CrossClimate 2,225/50 R16 92Y,all season,209.99
+322,National,bridgestone,Potenza RE050,225/50 R16 92W,summer,222.99

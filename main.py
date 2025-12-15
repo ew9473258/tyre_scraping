@@ -2,6 +2,7 @@
 import logging
 # Database
 import sqlite3
+import csv
 # Scraping
 from playwright.sync_api import sync_playwright
 import requests
@@ -210,7 +211,7 @@ class DexelScraper(TyreScraper):
 
             self.add_to_database(brand, pattern, size, season, minimum_price)
 
-    def scrape(self, inputs: List[tuple[int, int, int]]) -> None:
+    def scrape_all_branches(self, inputs: List[tuple[int, int, int]]) -> None:
         """
         Scrapes the whole site for tyres. Includes a new instance of each tyre even if it is the same price etc in another garage/branch.
 
@@ -236,6 +237,34 @@ class DexelScraper(TyreScraper):
                     page = self.nav_to_branch_page(page, input_tuple)
                     self.scrape_branch(page, branch, input_tuple)
                     context.close()
+            logger.info(f"Scraping complete.")
+            browser.close() 
+
+    def scrape_one_branch(self, inputs: List[tuple[int, int, int]]) -> None:
+        """
+        Scrapes the first branch for tyres. 
+
+        Args: List of size inputs in the format [[width, aspect ratio, rim size],...] (inputs)
+        """
+        
+        with sync_playwright() as pw:
+            browser = pw.firefox.launch(headless = False,slow_mo = 2000)
+
+            # Temporary context just to count branches
+            temp_context = browser.new_context()
+            temp_page = temp_context.new_page()
+            temp_page = self.nav_to_branch_page(temp_page, inputs[0])
+            branch_count = len(temp_page.get_by_role("button", name="Select This Branch").all())
+            temp_context.close()
+
+            logger.info(f"--------------------------------------------------------------------------\nScraping branch number 0")
+            for input_tuple in inputs:
+                logger.info(f"--------------------------------------------------------------------------\nScraping new input {input_tuple}")
+                context = browser.new_context() # Resets the cookies so it doesn't remember the branch, better to move this into branch loop and change other logic
+                page = context.new_page() 
+                page = self.nav_to_branch_page(page, input_tuple)
+                self.scrape_branch(page, 0, input_tuple)
+                context.close()
             logger.info(f"Scraping complete.")
             browser.close() 
 
@@ -277,9 +306,9 @@ class NationalTyreExtractor(TyreScraper):
 
         return list(set(postcodes_list)) # Just in case there are duplicate postcodes
     
-    def extract_data(self, inputs: List[tuple[int, int, int]], postcodes: List[str]) -> None:
+    def extract_data_each_postcode(self, inputs: List[tuple[int, int, int]], postcodes: List[str]) -> None:
         """
-        Extracts the requested data and adds it to the database.
+        Extracts the requested data from all postcodes and adds it to the database.
         
         Args: Input tyre size parameters (width, aspect_ratio, rim_size) in list format (inputs)
         """
@@ -302,33 +331,75 @@ class NationalTyreExtractor(TyreScraper):
                     price = individual_tyre.get("data-price").strip()
 
                     self.add_to_database(brand, pattern, size, season, price) # Could also yield the data and then log it later
+
+    def extract_data(self, inputs: List[tuple[int, int, int]], postcode: str) -> None:
+        """
+        Extracts the requested data from a single postcode and adds it to the database.
+        
+        Args: Input tyre size parameters (width, aspect_ratio, rim_size) in list format (inputs), postcode string (postcode)
+        """
+        
+        for width, aspect_ratio, rim_size in inputs:
+            logger.info(f"-------------------------------------------------------------------------------------\nScraping inputs: {width, aspect_ratio, rim_size}")
+            url = f"https://www.national.co.uk/tyres-search/{width}-{aspect_ratio}-{rim_size}?pc={postcode}"
+            tyre_soup = self.fetch_html(url)
+            individual_tyre_list = tyre_soup.select('div[id*="TyreResults_rptTyres_divTyre_"]')
+
+            for individual_tyre in individual_tyre_list:
+                brand = individual_tyre.get("data-brand").strip()
+                pattern = individual_tyre.select_one('a[id*="hypPattern"]')
+                size = pattern.find_parent("p").find_next_sibling("p") # Size always comes after the pattern
+                pattern = pattern.text.strip()
+                size = size.text.strip() # Leaving the V bit in as it is included in the size example (eg. 205/55 R16 91V)
+                season = individual_tyre.get("data-tyre-season").strip()
+                price = individual_tyre.get("data-price").strip()
+
+                self.add_to_database(brand, pattern, size, season, price) # Could also yield the data, or check its not in a set (remove dups) and then log it later
     
-    def scrape(self, inputs: List) -> None:
+    def scrape_all_branches(self, inputs: List) -> None:
         """
         Scrapes the whole site for tyres. Includes a new instance of each tyre even if it is the same price etc in another garage/branch.
 
         Args: List of size inputs in the format [[width, aspect ratio, rim size],...] (inputs)
         """
         postcodes = self.find_branch_postcodes()
-        with open('postcodes.json', "w") as f:
-                json.dump(postcodes, f)
-        # with open('postcodes.json', "r") as f:
-        #     postcodes = json.load(f)
-    
-        self.extract_data(inputs, postcodes)
+        for postcode in postcodes: 
+            logger.info(f"-------------------------------------------------------------------------------------\nScraping postcode: {postcode}")
+            self.extract_data(inputs, postcode)
+
+    def scrape_one_branch(self, inputs: List) -> None:
+        """
+        Scrapes the whole site for tyres. Only includes one garage/branch.
+
+        Args: List of size inputs in the format [[width, aspect ratio, rim size],...] (inputs)
+        """    
+        self.extract_data(inputs, 'S118YE')
 
 
 inputs = [(205, 55, 16), (225, 50, 16), (185, 16, 14)]
 
 # Run dexel tyre scraping
-#dexel_tyre_scraper_instance = DexelScraper()
-#dexel_tyre_scraper_instance.scrape(inputs)
+dexel_tyre_scraper_instance = DexelScraper()
+dexel_tyre_scraper_instance.scrape_one_branch(inputs)
 
 # Run bythjul tyre scraping
 # :( not yet
 
 # Run national tyre scraping
 national_tyre_scraper_instance = NationalTyreExtractor()
-national_tyre_scraper_instance.scrape(inputs)
+national_tyre_scraper_instance.scrape_one_branch(inputs)
 
 # Convert database to csv format
+
+conn = sqlite3.connect('tyres.db')
+cursor = conn.cursor()
+cursor.execute(f"SELECT * FROM tyres")
+rows = cursor.fetchall()
+column_names = [description[0] for description in cursor.description]
+with open("tyres.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(column_names)  # header
+    writer.writerows(rows)
+
+conn.close()
+
